@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
