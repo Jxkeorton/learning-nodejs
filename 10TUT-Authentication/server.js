@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
-const corsOptions = require('./config/corsOptions')
+const corsOptions = require('./config/corsOptions');
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const PORT = process.env.PORT || 3500;
@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 3500;
 // custom middleware logger
 app.use(logger);
 
-// cross origin resource sharing
-app.use(cors(corsOptions))
+// Cross Origin Resource Sharing
+app.use(cors(corsOptions));
 
 // built-in middleware to handle urlencoded form data
 app.use(express.urlencoded({ extended: false }));
