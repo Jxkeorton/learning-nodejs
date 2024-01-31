@@ -4,7 +4,7 @@ A set of lessons created by Dave Gray on youtube through a 7hr long tutorial he 
 
 ## What i learned
 
-- read & write files
+- Read & write files
 - NPM modules
 - Event Emitters
 - Building a web server
